@@ -1,0 +1,25 @@
+.boardlist {
+    width: 100%;
+    background-color: orange;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo_image {
+    height: 20vh;
+}
+
