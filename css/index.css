@@ -1,7 +1,3 @@
-.boardlist {
-    width: 100%;
-    background-color: orange;
-}
 #header {
     display: flex;
     flex-direction: column;
