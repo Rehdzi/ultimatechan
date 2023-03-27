@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;600&family=M+PLUS+2:wght@400;600;800&display=swap');
+
+:root {
+    --col1: #f8f1d9;
+    --col2: #fc85ae;
+    --col3: #9e579d;
+    --col4: #574b90;
+    --col5: #303a52;
+}
+
 body {
     height: 100%;
     width: 100%;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'M PLUS 1 Code', monospace;
+    font-family: 'M PLUS 2', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 14pt;
+    background-color: var(--col5);
+    color: var(--col1);
 }
 
 label {
@@ -14,8 +27,16 @@ label {
 }
 
 .boardlist {
+    display: block;
+    vertical-align: middle;
     width: 100%;
-    background-color: orange;
+    background-color: var(--col4);
+    color: var(--col2);
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
 }
 
 .banner {
@@ -33,14 +54,18 @@ label {
     flex-direction: column;
     align-items: center;
     width: 80%;
-    background-color: gray;
+    background-color: var(--col5);
+    border: 0.3vh solid var(--col2);
+    border-radius: 1.5vh;
     margin-bottom: 10vh;
 }
 
 .content {
     padding: 5vh 0.75vh;
     margin-bottom: 1.25vh;
-    background-color: lightgray;
+    background-color: var(--col5);
+    border: 0.3vh solid var(--col2);
+    border-radius: 1vh;
     width: 95%;
 
     display: flex;
@@ -61,7 +86,7 @@ footer {
     left: 0;
     height: 10vh;
     width: 100%;
-    background-color: lightgray;
+    background-color: var(--col4);
 
     display: flex;
     flex-direction: column;
